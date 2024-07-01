@@ -37,7 +37,7 @@ const AddBlog = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:5000/blogpost",
+        "https://my-app-backend-qvrd.onrender.com/blogpost",
         formData,
         {
           headers: {

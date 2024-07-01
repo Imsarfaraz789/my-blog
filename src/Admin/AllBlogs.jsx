@@ -9,7 +9,9 @@ const AllBlogs = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get("http://localhost:5000/allblog");
+        const response = await axios.get(
+          "https://my-app-backend-qvrd.onrender.com/allblog"
+        );
         setAllpost(response.data);
         console.log("data fetech");
       } catch (error) {

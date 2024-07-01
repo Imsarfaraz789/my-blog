@@ -18,7 +18,7 @@ const Singleblog = () => {
     const fetchData = async () => {
       try {
         const response = await axios.get(
-          `http://localhost:5000/singlepost/${id}`
+          `https://my-app-backend-qvrd.onrender.com/singlepost/${id}`
         );
         setSinglePost(response.data);
         console.log("Data retrieved");
@@ -89,10 +89,7 @@ const Singleblog = () => {
     <>
       <Helmet>
         <title>{`${singlePost.category} | ${singlePost.title}`}</title>
-        <meta
-          name={singlePost.summary}
-          content={singlePost.description}
-        />
+        <meta name={singlePost.summary} content={singlePost.description} />
       </Helmet>
       <div className="w-[60vw] m-auto max-md:w-full p-10">
         <div className="flex flex-col items-center pt-6">

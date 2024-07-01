@@ -27,7 +27,7 @@ const UpdatePost = () => {
     const fetchPostData = async () => {
       try {
         const response = await axios.get(
-          `http://localhost:5000/admin/blog/${id}`
+          `https://my-app-backend-qvrd.onrender.com/admin/blog/${id}`
         );
         const postData = response.data;
         setTitle(postData.title);
@@ -54,7 +54,7 @@ const UpdatePost = () => {
 
     try {
       const response = await axios.put(
-        `http://localhost:5000/admin/blog/${id}`,
+        `https://my-app-backend-qvrd.onrender.com/admin/blog/${id}`,
         updatedPost
       );
       alert("Blog post updated successfully");

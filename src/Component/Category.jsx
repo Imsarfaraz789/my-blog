@@ -11,7 +11,9 @@ const Category = () => {
   useEffect(() => {
     const allpost = async () => {
       try {
-        const response = await axios.get(`http://localhost:5000/allblog`);
+        const response = await axios.get(
+          `https://my-app-backend-qvrd.onrender.com/allblog`
+        );
         console.log(response.data);
         setpost(response.data);
       } catch (error) {
