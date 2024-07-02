@@ -60,6 +60,8 @@ const AddBlog = () => {
   };
 
   return (
+    <>
+      <h1 className="text-center">ADD NEW BLOG</h1>
     <form onSubmit={handleSubmit} className="max-w-xl mx-auto p-4 space-y-4">
       <div>
         <label className="block">Title:</label>
@@ -131,6 +133,7 @@ const AddBlog = () => {
         Submit
       </button>
     </form>
+    </>
   );
 };
 
