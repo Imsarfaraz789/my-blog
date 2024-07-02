@@ -10,7 +10,7 @@ const AllBlogs = () => {
     const fetchData = async () => {
       try {
         const response = await axios.get(
-          "https://my-app-backend-qvrd.onrender.com/allblog"
+          "https://my-blog-backend-0s7a.onrender.com/allblog"
         );
         setAllpost(response.data);
         console.log("data fetech");

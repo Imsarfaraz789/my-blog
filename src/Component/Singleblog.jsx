@@ -18,7 +18,7 @@ const Singleblog = () => {
     const fetchData = async () => {
       try {
         const response = await axios.get(
-          `https://my-app-backend-qvrd.onrender.com/singlepost/${id}`
+          `https://my-blog-backend-0s7a.onrender.com/singlepost/${id}`
         );
         setSinglePost(response.data);
         console.log("Data retrieved");

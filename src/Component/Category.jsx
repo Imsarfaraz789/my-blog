@@ -12,7 +12,7 @@ const Category = () => {
     const allpost = async () => {
       try {
         const response = await axios.get(
-          `https://my-app-backend-qvrd.onrender.com/allblog`
+          `https://my-blog-backend-0s7a.onrender.com/allblog`
         );
         console.log(response.data);
         setpost(response.data);

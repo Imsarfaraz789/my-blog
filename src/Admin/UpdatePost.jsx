@@ -54,7 +54,7 @@ const UpdatePost = () => {
 
     try {
       const response = await axios.put(
-        `https://my-app-backend-qvrd.onrender.com/admin/blog/${id}`,
+        `https://my-blog-backend-0s7a.onrender.com/admin/blog/${id}`,
         updatedPost
       );
       alert("Blog post updated successfully");

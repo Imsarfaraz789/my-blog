@@ -9,7 +9,7 @@ const Navbar = () => {
   const handleSubscribe = async () => {
     try {
       await axios.post(
-        "https://my-app-backend-qvrd.onrender.com/emailsubscribe",
+        "https://my-blog-backend-0s7a.onrender.com/emailsubscribe",
         { email },
         {
           headers: {
