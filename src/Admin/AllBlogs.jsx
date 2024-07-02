@@ -32,7 +32,7 @@ const AllBlogs = () => {
   };
   return (
     <>
-      <h1 className="text-center">All BLOG LIST</h1>
+      <h1 className="text-center pb-4">All BLOG LIST</h1>
       <div className=" h-full border-2">
         {allpost.map((item) => {
           return (
