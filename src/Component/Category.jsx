@@ -62,13 +62,13 @@ const Category = () => {
           </div>
         </div>
         <div className="flex justify-center flex-wrap">
-          <div className="flex gap-4 w-80  flex-wrap justify-center ">
+          <div className="flex gap-4   flex-wrap justify-center ">
             {blogPosts
               .filter((item) =>
                 menu === "All" ? true : item.category === menu
               )
               .map((post) => (
-                <div key={post._id} className="border-2 border-[#2f2e2e] p-2 ">
+                <div key={post._id} className="border-2 w-80 border-[#2f2e2e] p-2 ">
                   <LazyLoad>
                     <img
                       className="w-80 h-56 object-contain"
