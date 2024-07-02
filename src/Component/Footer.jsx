@@ -13,7 +13,7 @@ const Footer = () => {
           </LazyLoad>
         </div>
         <div className="text-lg max-md:text-sm">
-          &copy; {new Date().getFullYear()} Tech Hunter. All rights reserved.
+          &copy; {new Date().getFullYear()} Tech Hunger. All rights reserved.
         </div>
         <div className="flex">
           <a
