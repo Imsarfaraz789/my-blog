@@ -24,7 +24,7 @@ const AllBlogs = () => {
 
   const deletePost = async (id) => {
     try {
-      await axios.delete(`http://localhost:5000/blog/${id}`);
+      await axios.delete(`https://my-blog-backend-0s7a.onrender.com/blog/${id}`);
       setAllpost(allpost.filter((post) => post._id !== id));
     } catch (error) {
       console.log(error);
