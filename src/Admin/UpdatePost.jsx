@@ -111,7 +111,7 @@ const UpdatePost = () => {
 
       <div className="mt-56">
         <button type="submit" className="w-full p-2  bg-blue-500 text-white">
-          Submit
+          Update Blog
         </button>
       </div>
     </form>
