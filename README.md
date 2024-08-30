@@ -35,7 +35,7 @@ Cloudinary
 
 Vercel & Render deployment
 
-Check it out here: [https://techhunger.vercel.app/]
+Check it out Backend Code: [https://github.com/Imsarfaraz789/my-blog-backend]
 
 # Screenshots
 
